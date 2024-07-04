@@ -1,3 +1,5 @@
+# J-Hunt - a simple job search react native application
+
 # react_native_jobs
 A react native application which fetches data from an opensource api that helps feed this application with insightfull data that is usefull for anyone who uses the application for their job search. The key websites the job postings are sourced from are LinkedIn, Indeed, Glassdoor, ZipRecruiter , Monster and other pblic listing websites.
 
