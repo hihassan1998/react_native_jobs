@@ -1,4 +1,4 @@
-import { SafeAreaView, Text, View, ScrollView} from "react-native";
+import { SafeAreaView, Text, View, ScrollView } from "react-native";
 import { useState } from 'react';
 import { Stack, useRouter } from "expo-router";
 
@@ -16,25 +16,31 @@ const Home = () => {
           headerStyle: { backgroundColor: COLORS.lightWhite },
           headerShadowVisible: false,
           headerLeft: () => (
-            <ScreenHeaderBtn  iconUrl={icons.menu} dimentions="60%" />
+            <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn  iconUrl={icons.profile} dimentions="100%" />
+            <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' 
+            // handlePress={()=> console.log('Button Pressed!')}
+            />
           ),
-          headerTitle:""
+          headerTitle: ""
         }}
       />
 
       <ScrollView showsVerticalScrollIndicator={false}>
         <View
-        style={{
-          flex:1,
-          padding: SIZES.medium
-        }}
+          style={{
+            flex: 1,
+            padding: SIZES.medium
+          }}
         >
+          <Welcome
+          />
+
+          <Popularjobs />
+          <Nearbyjobs />
 
         </View>
-
       </ScrollView>
     </SafeAreaView>
   );
