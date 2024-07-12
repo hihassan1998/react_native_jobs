@@ -13,7 +13,7 @@ const Popularjobs = () => {
     query: 'React developer',
     num_pages: '1',
   });
-  console.log(data);
+  // console.log(data);
 
   const handleJobPress = (job) => {
     setSelectedJob(job);
@@ -38,14 +38,14 @@ const Popularjobs = () => {
           <FlatList
             data={data}
             renderItem={({ item }) => (
-              <PopularJobCard 
-                item={item} 
+              <PopularJobCard
+                item={item}
                 isSelected={item.job_id === selectedJob?.job_id}
                 onPress={() => handleJobPress(item)}
               />
             )}
-            keyExtractor={(item) => item.job_id.toString()}
-            contentContainerStyle={{ columnGap: SIZES.medium }}
+            keyExtractor={(item) => item.job_id}
+            contentContainerStyle={{ paddingHorizontal: SIZES.medium }}
             horizontal
           />
         )}

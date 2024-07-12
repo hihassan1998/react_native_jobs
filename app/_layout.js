@@ -17,7 +17,7 @@ export default function RootLayout() {
     if (fontsLoaded) {
       await SplashScreen.hideAsync();
     }
-  }, { fontsLoaded })
+  }, [fontsLoaded])
   if (!fontsLoaded) return null;
 
   return <Stack onLayout={onLayoutRootView} />

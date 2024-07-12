@@ -4,6 +4,9 @@ import styles from "./popularjobcard.style";
 import { checkImageURL } from "../../../../utils";
 
 const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
+  if (!item || !item.employer_name || !item.job_title || !item.job_publisher || !item.job_country) {
+    return null; // or return a placeholder or loading state
+  }
   return (
     <TouchableOpacity
       style={styles.container(selectedJob, item)}
