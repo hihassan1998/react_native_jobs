@@ -3,6 +3,7 @@
 # Overview
 A react native application which fetches data from an opensource api that helps feed this application with insightfull data that is usefull for anyone who uses the application for their job search. The key websites the job postings are sourced from are LinkedIn, Indeed, Glassdoor, ZipRecruiter , Monster and other pblic listing websites.
 
+
 ### Screenshots
 | | | | |
 | --- | --- | --- | --- |
@@ -27,6 +28,10 @@ JSearch by OpenWeb Ninja is a fast, reliable, and comprehensive jobs API. As the
 
 
 # Getting Started
+
+### Download the Expo Go App and Scan the QR Code or follow the steps 1-4 to get started locally
+- [J-Hunt Expo Go App](https://expo.dev/preview/update?message=updated%20job_apply-links&updateRuntimeVersion=1.0.0&createdAt=2024-08-11T14%3A01%3A16.739Z&slug=exp&projectId=bb2dd756-5e6a-4ebb-9453-054be945db77&group=75467954-caab-4377-acc4-56ac71fcb25d)
+
 To get started with the J-Hunt application, follow these steps:
 
 1. Clone the Repository
