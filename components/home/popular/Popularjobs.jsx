@@ -16,8 +16,8 @@ const Popularjobs = () => {
   // console.log(data);
 
   const handleCardPress = (job) => {
-    console.log('handleCardPress:', handleCardPress);
-    console.log('Selected Job:', job);
+    // console.log('handleCardPress:', handleCardPress);
+    // console.log('Selected Job:', job);
     setSelectedJob(job); // Handle navigation or other actions when a job is selected
     router.push(`/job-details/${job.job_id}`);
   };

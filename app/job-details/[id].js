@@ -26,14 +26,11 @@ const JobDetails = () => {
     const [refreshing, setRefreshing] = useState(false);
     const [activeTab, setActiveTab] = useState(tabs[0]);
 
-    const onRefresh = () => { }
-
-    //  const onRefresh = useCallback(() => {
-    //     setRefreshing(true)
-    //     refetch()
-    //     setRefreshing(false)
-
-    //  },[])
+    const onRefresh = useCallback(() => {
+        setRefreshing(true)
+        refetch()
+        setRefreshing(false)
+    }, [])
 
     const displayTabContent = () => {
         switch (activeTab) {
@@ -113,7 +110,7 @@ const JobDetails = () => {
                     )}
 
                 </ScrollView>
-                <JobFooter url={data[0]?.publisher_link ?? 'https://careers.google.com/jobs/results'} />
+                <JobFooter url={data[0]?.job_apply_link ?? 'https://careers.google.com/jobs/results'} />
             </>
         </SafeAreaView>
     )
