@@ -5,11 +5,12 @@ A react native application which fetches data from an opensource api that helps 
 
 
 ### Screenshots
-| | | | |
-| --- | --- | --- | --- |
-| ![Screenshot 1](![WelcomePage](https://github.com/user-attachments/assets/c854dbaa-5f6c-4572-9c21-887104876dae)
-) | ![Screenshot 2](![nearbyjobsdisplayPage](https://github.com/user-attachments/assets/afb2457e-42bc-4fae-8af5-809a9f410440)
-) | ![Screenshot 3](screenshot3.png) | ![Screenshot 4](screenshot4.png) |
+<div>
+  <img src="https://github.com/user-attachments/assets/c854dbaa-5f6c-4572-9c21-887104876dae" width="200" height="430" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/afb2457e-42bc-4fae-8af5-809a9f410440" width="200" height="auto" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/5e36c5a8-885a-4158-ac3b-f29f34725ea5" width="200" height="auto" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/f23af021-c721-43a0-957b-1df6c4944f07" width="200" height="auto" style="margin-right: 10px;" />
+</div>
 
 # Features
 - Job search functionality with filters (e.g., location, job type)
