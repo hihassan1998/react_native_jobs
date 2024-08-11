@@ -7,7 +7,9 @@ A react native application which fetches data from an opensource api that helps 
 ### Screenshots
 | | | | |
 | --- | --- | --- | --- |
-| ![Screenshot 1](screenshot1.png) | ![Screenshot 2](screenshot2.png) | ![Screenshot 3](screenshot3.png) | ![Screenshot 4](screenshot4.png) |
+| ![Screenshot 1](![WelcomePage](https://github.com/user-attachments/assets/c854dbaa-5f6c-4572-9c21-887104876dae)
+) | ![Screenshot 2](![nearbyjobsdisplayPage](https://github.com/user-attachments/assets/afb2457e-42bc-4fae-8af5-809a9f410440)
+) | ![Screenshot 3](screenshot3.png) | ![Screenshot 4](screenshot4.png) |
 
 # Features
 - Job search functionality with filters (e.g., location, job type)
