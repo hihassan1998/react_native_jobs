@@ -15,9 +15,10 @@ const Popularjobs = () => {
   });
   // console.log(data);
 
-  const handleJobPress = (job) => {
-    setSelectedJob(job);
-    // Handle navigation or other actions when a job is selected
+  const handleCardPress = (job) => {
+    console.log('handleCardPress:', handleCardPress);
+    console.log('Selected Job:', job);
+    setSelectedJob(job); // Handle navigation or other actions when a job is selected
     router.push(`/job-details/${job.job_id}`);
   };
 
@@ -40,8 +41,9 @@ const Popularjobs = () => {
             renderItem={({ item }) => (
               <PopularJobCard
                 item={item}
-                isSelected={item.job_id === selectedJob?.job_id}
-                onPress={() => handleJobPress(item)}
+                selectedJob={selectedJob}
+                // isSelected={item.job_id === selectedJob?.job_id}
+                handleCardPress={handleCardPress}
               />
             )}
             keyExtractor={(item) => item.job_id}

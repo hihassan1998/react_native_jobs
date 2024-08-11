@@ -21,8 +21,7 @@ const Company = ({ companyLogo, jobTitle, companyName, location }) => {
       </View>
 
       <View style={styles.jobTitleBox}>
-        <Text
-          style={styles.jobTitle}> {jobTitle}</Text>
+        <Text style={styles.jobTitle}> {jobTitle} </Text>
       </View>
 
       <View style={styles.companyInfoBox}>

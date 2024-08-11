@@ -30,8 +30,10 @@ const styles = StyleSheet.create({
   },
   applyBtn: {
     flex: 1,
+    width: 55,
+    height: 55,
     backgroundColor: "#FE7654",
-    height: "100%",
+    // height: "100%",
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.medium,
